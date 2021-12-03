@@ -46,3 +46,5 @@ def test_returns_fizz_when_multiple3passed():
 def test_returns_buzz_when_multiple5passed():
     check_fizzbuzz(10,"Buzz")  
 
+def test_returns_fizzbuzz_when_multiple3and5passed():
+    check_fizzbuzz(15,"FizzBuzz")

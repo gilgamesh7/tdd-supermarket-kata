@@ -8,4 +8,7 @@ def fizz_buzz( value ):
     if value%5 == 0:
         ret_val = "Buzz"
     
+    if value%3 == 0 and value%5 == 0:
+        ret_val = "FizzBuzz"
+    
     return ret_val
